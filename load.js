@@ -34,6 +34,6 @@ function request() {
     return req;
 }
 
-for(var i=0; i<3; i++)
+for(var i=0; i<5; i++)
     setTimeout(request, i * 2000);
 
